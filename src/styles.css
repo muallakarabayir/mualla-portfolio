@@ -13,24 +13,22 @@ html,body{margin:0}
 }
 :root[data-palette="pembe"]{
   --bg:#ffffff; --surface:#fff6f9; --fg:#2b1d24; --muted:#7d6872; --line:#f7dce6;
-  --accent:#e0457b; --accent-soft:#ffe4ee; --ok:#d0527f; --petal:#ffc6d8; --branch:#e0457b}
+  --accent:#e0457b; --accent-soft:#ffe4ee; --ok:#d0527f; --petal:#ffc6d8; --branch:#e0457b; color-scheme:light}
 :root[data-palette="siyah"]{--bg:#0c0a0d; --surface:#17131a; --fg:#f8eef3; --muted:#ab959f; --line:#2e2329; --accent:#ff5c9a; --accent-soft:#3b1427; --ok:#ff8fb8; --petal:#8a3557; --branch:#ff5c9a; color-scheme:dark}
 
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#1a1216; --surface:#241a1f; --fg:#f6e9ef; --muted:#bfa6b1; --line:#3b2a32;
     --accent:#f39ab9; --accent-soft:#3b2030; --ok:#f0a7c2; --petal:#b86a86; --branch:#cfa497; color-scheme:dark}
-  :root[data-palette="pembe"]:not([data-theme="light"]){
-    --bg:#141013; --surface:#1f181c; --fg:#fbecf2; --muted:#c3a9b5; --line:#3a2a32;
-    --accent:#ff8fb6; --accent-soft:#3f1f2e; --ok:#ff9fc2; --petal:#a85a77; --branch:#ff8fb6}
+  :root[data-palette="pembe"]:not([data-theme="light"]){--bg:#ffffff; --surface:#fff6f9; --fg:#2b1d24; --muted:#7d6872; --line:#f7dce6; --accent:#e0457b; --accent-soft:#ffe4ee; --ok:#d0527f; --petal:#ffc6d8; --branch:#e0457b; color-scheme:light}
   :root[data-palette="siyah"]:not([data-theme="light"]){--bg:#0c0a0d; --surface:#17131a; --fg:#f8eef3; --muted:#ab959f; --line:#2e2329; --accent:#ff5c9a; --accent-soft:#3b1427; --ok:#ff8fb8; --petal:#8a3557; --branch:#ff5c9a; color-scheme:dark}
 }
 :root[data-theme="dark"]{
   --bg:#1a1216; --surface:#241a1f; --fg:#f6e9ef; --muted:#bfa6b1; --line:#3b2a32;
   --accent:#f39ab9; --accent-soft:#3b2030; --ok:#f0a7c2; --petal:#b86a86; --branch:#cfa497; color-scheme:dark}
 :root[data-theme="dark"][data-palette="pembe"]{
-  --bg:#141013; --surface:#1f181c; --fg:#fbecf2; --muted:#c3a9b5; --line:#3a2a32;
-  --accent:#ff8fb6; --accent-soft:#3f1f2e; --ok:#ff9fc2; --petal:#a85a77; --branch:#ff8fb6}
+  --bg:#ffffff; --surface:#fff6f9; --fg:#2b1d24; --muted:#7d6872; --line:#f7dce6;
+  --accent:#e0457b; --accent-soft:#ffe4ee; --ok:#d0527f; --petal:#ffc6d8; --branch:#e0457b; color-scheme:light}
 :root[data-theme="dark"][data-palette="siyah"]{--bg:#0c0a0d; --surface:#17131a; --fg:#f8eef3; --muted:#ab959f; --line:#2e2329; --accent:#ff5c9a; --accent-soft:#3b1427; --ok:#ff8fb8; --petal:#8a3557; --branch:#ff5c9a; color-scheme:dark}
 
 /* tema seçici */
