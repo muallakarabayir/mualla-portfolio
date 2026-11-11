@@ -9,7 +9,7 @@ export const profile = {
     'React, React Native, FastAPI ve PostgreSQL ile uçtan uca, üretime alınmış sistemler geliştiriyorum. RAG tabanlı yapay zekâ ürünleri, gerçek zamanlı uygulamalar ve bulut dağıtımı üzerine çalışıyorum.',
   email: 'muallakrbyr@gmail.com',
   github: 'https://github.com/muallakarabayir',
-  linkedin: 'https://www.linkedin.com/in/mualla-karabay%C4%B1r-565a82219/',',
+  linkedin: 'https://www.linkedin.com/in/mualla-karabay%C4%B1r-565a82219/',
 }
 
 export const stack = [
